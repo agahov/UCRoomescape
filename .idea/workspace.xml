@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="UE4" targetName="UCRoomescapeEditor-Development" />
+      <config projectName="UE4" targetName="UCRoomescapeEditor-Development-CLEAN" />
+      <config projectName="UE4" targetName="PleaseIgnoreMe" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="false" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
+    <ADDITIONAL_GENERATION_ENVIRONMENT>
+      <envs />
+    </ADDITIONAL_GENERATION_ENVIRONMENT>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="88e9cc1f-5c4b-4c3a-a1f2-91c77ba1ba29" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Architecture/Floor_400x400.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Architecture/Pillar_50x500.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Architecture/Wall_400x200.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Architecture/Wall_400x300.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Architecture/Wall_400x400.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Architecture/Wall_500x500.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Collapse01.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Collapse02.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Collapse_Cue.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Explosion01.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Explosion02.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Explosion_Cue.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Fire01.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Fire01_Cue.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Fire_Sparks01.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Light01.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Light01_Cue.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Light02.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Light02_Cue.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Smoke01.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Smoke01_Cue.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Starter_Background_Cue.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Starter_Birds01.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Starter_Music01.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Starter_Music_Cue.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Starter_Wind05.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Starter_Wind06.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Steam01.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Steam01_Cue.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Assets/Skybox.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Blueprints/BP_LightStudio.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Maps/Advanced_Lighting.umap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Maps/Minimal_Default.umap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Maps/StarterMap.umap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_AssetPlatform.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Basic_Floor.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Basic_Wall.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Concrete_Grime.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Concrete_Panels.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Concrete_Poured.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Glass.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Ground_Grass.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Ground_Gravel.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Ground_Moss.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Metal_Chrome.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Metal_Copper.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Metal_Gold.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Metal_Rust.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Metal_Steel.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Rock_Basalt.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Rock_Slate.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Tech_Panel.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Water_Lake.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Water_Ocean.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Wood_Oak.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Wood_Pine.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Wood_Walnut.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Particles/Materials/M_Burst.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Particles/Materials/M_Spark.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Particles/Materials/m_flare_01.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Particles/P_Ambient_Dust.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Particles/P_Explosion.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Particles/P_Fire.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Particles/P_Smoke.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Particles/P_Sparks.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Particles/P_Steam_Lit.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/MaterialSphere.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/Materials/M_Bush.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/Materials/M_Chair.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/Materials/M_Door.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/Materials/M_Frame.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/Materials/M_Lamp.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/Materials/M_Rock.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/Materials/M_Shelf.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/Materials/M_Statue.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/Materials/M_TableRound.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/SM_Bush.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/SM_Chair.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/SM_CornerFrame.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/SM_Couch.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/SM_Door.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/SM_DoorFrame.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/SM_GlassWindow.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/SM_Lamp_Wall.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/SM_PillarFrame.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/SM_PillarFrame300.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/SM_Rock.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/SM_Shelf.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/SM_Stairs.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/SM_Statue.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/SM_TableRound.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Props/SM_WindowFrame.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Shapes/Shape_Cone.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Shapes/Shape_Cube.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Shapes/Shape_Cylinder.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Shapes/Shape_Pipe.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Shapes/Shape_Plane.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Shapes/Shape_Sphere.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Shapes/Shape_Torus.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Shapes/Shape_Trim.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Shapes/Shape_Tube.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Burst_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Bush_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Bush_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Chair_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Chair_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Door_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Door_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Fire_SubUV.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Frame_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Frame_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Gradinet_01.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Lamp_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Lamp_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_MacroVariation.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_RockMesh_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_RockMesh_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Shelf_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Shelf_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Single_Tile_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Spark_Core.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Statue_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Statue_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_TableRound_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_TableRound_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Water_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Water_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_ground_Moss_D.uasset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Config/DefaultGame.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/CLionSourceCodeAccess/Binaries/Mac/UE4Editor.modules" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/CLionSourceCodeAccess/Intermediate/Build/Mac/UE4Editor/Development/CLionSourceCodeAccess/Definitions.CLionSourceCodeAccess.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/CLionSourceCodeAccess/Intermediate/Build/Mac/UE4Editor/Development/CLionSourceCodeAccess/Module.CLionSourceCodeAccess.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/CLionSourceCodeAccess/Intermediate/Build/Mac/UE4Editor/Development/DylibCopy.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/CLionSourceCodeAccess/Intermediate/Build/Mac/UE4Editor/Development/UE4Editor-CLionSourceCodeAccess.dylib.response" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/CLionSourceCodeAccess/Intermediate/Build/Mac/UE4Editor/Inc/CLionSourceCodeAccess/CLionSettings.generated.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/CLionSourceCodeAccess/Intermediate/Build/Mac/UE4Editor/Inc/CLionSourceCodeAccess/CLionSourceCodeAccess.generated.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/CLionSourceCodeAccess/Intermediate/Build/Mac/UE4Editor/Inc/CLionSourceCodeAccess/CLionSourceCodeAccess.generated.dep.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/CLionSourceCodeAccess/Intermediate/Build/Mac/UE4Editor/Inc/CLionSourceCodeAccess/CLionSourceCodeAccessClasses.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/CLionSourceCodeAccess/Intermediate/Build/Mac/UE4Editor/Inc/CLionSourceCodeAccess/Timestamp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Source/UCRoomescape.Target.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Source/UCRoomescape/UCRoomescape.Build.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Source/UCRoomescape/UCRoomescape.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Source/UCRoomescape/UCRoomescape.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Source/UCRoomescape/UCRoomescapeGameModeBase.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Source/UCRoomescape/UCRoomescapeGameModeBase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Source/UCRoomescapeEditor.Target.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UCRoomescape.uproject" />
+    </list>
+    <ignored path="UCRoomescape.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="UCRoomescape" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="170" />
+    <option name="y" value="45" />
+    <option name="width" value="1400" />
+    <option name="height" value="921" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UCRoomescape" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UCRoomescape" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UCRoomescape" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UCRoomescape" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UCRoomescape" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UCRoomescape.xcworkspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UCRoomescape" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UCRoomescape" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UCRoomescape.xcworkspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xcuserdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gakhov.xcuserdatad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.Build All">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="PleaseIgnoreMe" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PleaseIgnoreMe" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="PleaseIgnoreMe" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UE4" RUN_TARGET_NAME="PleaseIgnoreMe">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="UCRoomescapeEditor-Development" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UCRoomescapeEditor-Development" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="UCRoomescapeEditor-Development-CLEAN" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="UCRoomescapeEditor-Development-CLEAN" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PleaseIgnoreMe" />
+      <item index="2" class="java.lang.String" itemvalue="Application.UCRoomescapeEditor-Development" />
+      <item index="3" class="java.lang.String" itemvalue="Application.UCRoomescapeEditor-Development-CLEAN" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88e9cc1f-5c4b-4c3a-a1f2-91c77ba1ba29" name="Default" comment="" />
+      <created>1501093466462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1501093466462</updated>
+      <workItem from="1501093471235" duration="116000" />
+      <workItem from="1501093721837" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="133000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="170" y="45" width="1400" height="921" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>
