@@ -13,13 +13,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f69c231-2bf4-457e-a67d-e34e5a80ffe9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Plugins/CLionSourceCodeAccess/Binaries/Mac/UE4Editor.modules" afterPath="$PROJECT_DIR$/Plugins/CLionSourceCodeAccess/Binaries/Mac/UE4Editor.modules" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.cpp" afterPath="$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.h" afterPath="$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.h" />
-    </list>
+    <list default="true" id="5f69c231-2bf4-457e-a67d-e34e5a80ffe9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,8 +91,8 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="529" />
-    <option name="y" value="139" />
+    <option name="x" value="219" />
+    <option name="y" value="99" />
     <option name="width" value="1260" />
     <option name="height" value="769" />
   </component>
@@ -361,15 +355,15 @@
       <workItem from="1501259470029" duration="2040000" />
       <workItem from="1501262229593" duration="120000" />
       <workItem from="1501262391638" duration="52000" />
-      <workItem from="1501263667026" duration="8744000" />
+      <workItem from="1501263667026" duration="9034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10956000" />
+    <option name="totallyTimeSpent" value="11246000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="529" y="139" width="1260" height="769" extended-state="0" />
+    <frame x="219" y="99" width="1260" height="769" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25396827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
