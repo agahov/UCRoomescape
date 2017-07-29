@@ -14,13 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f69c231-2bf4-457e-a67d-e34e5a80ffe9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Content/Room/Maps/NewMap.umap" afterPath="$PROJECT_DIR$/Content/Room/Maps/NewMap.umap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/UCRoomescape.iml" afterPath="$PROJECT_DIR$/.idea/UCRoomescape.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Plugins/CLionSourceCodeAccess/Binaries/Mac/UE4Editor.modules" afterPath="$PROJECT_DIR$/Plugins/CLionSourceCodeAccess/Binaries/Mac/UE4Editor.modules" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/UCRoomescape/PositionReporter.cpp" afterPath="$PROJECT_DIR$/Source/UCRoomescape/PositionReporter.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.cpp" afterPath="$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.h" afterPath="$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +33,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PositionReporter.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PositionReporter.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/PositionReporter.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="265">
@@ -45,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OpenDoor.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OpenDoor.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+            <state relative-caret-position="246">
+              <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
               <folding>
                 <element signature="e#121#140#0" expanded="true" />
               </folding>
@@ -60,8 +58,8 @@
       <file leaf-file-name="OpenDoor.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+            <state relative-caret-position="312">
+              <caret line="25" column="71" lean-forward="false" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -86,8 +84,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Source/UCRoomescape/PositionReporter.cpp" />
-        <option value="$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.cpp" />
         <option value="$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.h" />
+        <option value="$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.cpp" />
       </list>
     </option>
   </component>
@@ -97,9 +95,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="593" />
-    <option name="y" value="177" />
+    <option name="x" value="529" />
+    <option name="y" value="139" />
     <option name="width" value="1260" />
     <option name="height" value="769" />
   </component>
@@ -362,15 +361,15 @@
       <workItem from="1501259470029" duration="2040000" />
       <workItem from="1501262229593" duration="120000" />
       <workItem from="1501262391638" duration="52000" />
-      <workItem from="1501263667026" duration="5075000" />
+      <workItem from="1501263667026" duration="8744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7287000" />
+    <option name="totallyTimeSpent" value="10956000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="593" y="177" width="1260" height="769" extended-state="0" />
+    <frame x="529" y="139" width="1260" height="769" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25396827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -460,29 +459,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/PositionReporter.cpp">
+    <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="246">
+          <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+          <folding>
+            <element signature="e#121#140#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        <state relative-caret-position="312">
+          <caret line="25" column="71" lean-forward="false" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.h">
+    <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/PositionReporter.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-          <folding>
-            <element signature="e#121#140#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="265">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

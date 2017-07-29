@@ -22,12 +22,19 @@ void UOpenDoor::BeginPlay()
 
 	// ...
 	//AActor * owner = CFFileSecurityGetOwner()
-	AActor* Owner = GetOwner();
 
-	FRotator NewRotation = FRotator(0.f,-60.f,0.f);
+    ActorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
 
-	Owner->SetActorRotation(NewRotation);
-	
+}
+
+
+
+void UOpenDoor::OpenDoor() {
+
+    AActor* Owner = GetOwner();
+    FRotator NewRotation = FRotator(0.f,-60.f,0.f);
+    Owner->SetActorRotation(NewRotation);
+
 }
 
 
@@ -35,6 +42,12 @@ void UOpenDoor::BeginPlay()
 void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+
+
+    if (PressurePlate->IsOverlappingActor(ActorThatOpens))
+    {
+        OpenDoor();
+    }
 
 	// ...
 }
