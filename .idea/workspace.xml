@@ -13,7 +13,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f69c231-2bf4-457e-a67d-e34e5a80ffe9" name="Default" comment="" />
+    <list default="true" id="5f69c231-2bf4-457e-a67d-e34e5a80ffe9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Content/Room/Maps/NewMap.umap" afterPath="$PROJECT_DIR$/Content/Room/Maps/NewMap.umap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Content/Room/RoomDefaultPawn.uasset" afterPath="$PROJECT_DIR$/Content/Room/RoomDefaultPawn.uasset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Content/Room/RoomGameMode.uasset" afterPath="$PROJECT_DIR$/Content/Room/RoomGameMode.uasset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Plugins/CLionSourceCodeAccess/Binaries/Mac/UE4Editor.modules" afterPath="$PROJECT_DIR$/Plugins/CLionSourceCodeAccess/Binaries/Mac/UE4Editor.modules" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.cpp" afterPath="$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.h" afterPath="$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.h" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PositionReporter.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PositionReporter.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/PositionReporter.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            <state relative-caret-position="229">
+              <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -40,8 +49,8 @@
       <file leaf-file-name="OpenDoor.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+            <state relative-caret-position="449">
+              <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
               <folding>
                 <element signature="e#121#140#0" expanded="true" />
               </folding>
@@ -49,27 +58,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OpenDoor.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.cpp">
+      <file leaf-file-name="Grabber.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/Grabber.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="25" column="71" lean-forward="false" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+            <state relative-caret-position="279">
+              <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <file leaf-file-name="Grabber.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/Grabber.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="42" column="91" lean-forward="false" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DrawDebugLine</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,8 +92,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Source/UCRoomescape/PositionReporter.cpp" />
-        <option value="$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.h" />
         <option value="$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.cpp" />
+        <option value="$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.h" />
+        <option value="$PROJECT_DIR$/Source/UCRoomescape/Grabber.h" />
+        <option value="$PROJECT_DIR$/Source/UCRoomescape/Grabber.cpp" />
       </list>
     </option>
   </component>
@@ -91,8 +107,8 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="219" />
-    <option name="y" value="99" />
+    <option name="x" value="1066" />
+    <option name="y" value="91" />
     <option name="width" value="1260" />
     <option name="height" value="769" />
   </component>
@@ -355,15 +371,15 @@
       <workItem from="1501259470029" duration="2040000" />
       <workItem from="1501262229593" duration="120000" />
       <workItem from="1501262391638" duration="52000" />
-      <workItem from="1501263667026" duration="9034000" />
+      <workItem from="1501263667026" duration="14660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11246000" />
+    <option name="totallyTimeSpent" value="16872000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="219" y="99" width="1260" height="769" extended-state="0" />
+    <frame x="1066" y="91" width="1260" height="769" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25396827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -453,28 +469,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.h">
+    <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-          <folding>
-            <element signature="e#121#140#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="425">
+          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.cpp">
+    <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/UCRoomescapeGameModeBase.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="25" column="71" lean-forward="false" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+        <state relative-caret-position="30">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/UCRoomescapeGameModeBase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/PositionReporter.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        <state relative-caret-position="229">
+          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <element signature="e#121#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/Grabber.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/Grabber.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="42" column="91" lean-forward="false" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
           <folding />
         </state>
       </provider>
