@@ -18,6 +18,17 @@ UPositionReporter::UPositionReporter()
 void UPositionReporter::BeginPlay()
 {
 	Super::BeginPlay();
+	//UE_LOG(LogTemp,Warning,TEXT("This is yellow text!"));
+
+    FString ObjectName = GetOwner()->GetName();
+    FString ObjPosition = GetOwner()->GetTransform().GetLocation().ToString();
+    //GetOwner()->
+    
+    
+
+    //GetOwner()->
+//GetOwner()
+    UE_LOG(LogTemp,Error,TEXT("Position:: %s  is  %s "),*ObjectName, *ObjPosition);
 
 	// ...
 	

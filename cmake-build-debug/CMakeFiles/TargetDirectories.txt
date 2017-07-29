@@ -1,0 +1,5 @@
+/Users/gakhov/Space/unrealProjects/UCRoomescape/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/gakhov/Space/unrealProjects/UCRoomescape/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/gakhov/Space/unrealProjects/UCRoomescape/cmake-build-debug/CMakeFiles/UCRoomescapeEditor-Development-CLEAN.dir
+/Users/gakhov/Space/unrealProjects/UCRoomescape/cmake-build-debug/CMakeFiles/PleaseIgnoreMe.dir
+/Users/gakhov/Space/unrealProjects/UCRoomescape/cmake-build-debug/CMakeFiles/UCRoomescapeEditor-Development.dir
