@@ -57,8 +57,8 @@
       <file leaf-file-name="Grabber.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/Grabber.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="42" />
+            <state relative-caret-position="317">
+              <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="34" />
               <folding>
                 <element signature="e#121#140#0" expanded="true" />
               </folding>
@@ -69,8 +69,8 @@
       <file leaf-file-name="Grabber.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/Grabber.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="91" column="38" lean-forward="false" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
+            <state relative-caret-position="161">
+              <caret line="125" column="1" lean-forward="false" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -348,12 +348,12 @@
       <workItem from="1501262229593" duration="120000" />
       <workItem from="1501262391638" duration="52000" />
       <workItem from="1501263667026" duration="19087000" />
-      <workItem from="1501402544359" duration="7553000" />
+      <workItem from="1501402544359" duration="9326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28852000" />
+    <option name="totallyTimeSpent" value="30625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="464" y="111" width="1260" height="769" extended-state="0" />
@@ -555,8 +555,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/Grabber.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="42" />
+        <state relative-caret-position="317">
+          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="34" />
           <folding>
             <element signature="e#121#140#0" expanded="true" />
           </folding>
@@ -565,8 +565,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/Grabber.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="91" column="38" lean-forward="false" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
+        <state relative-caret-position="161">
+          <caret line="125" column="1" lean-forward="false" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
           <folding />
         </state>
       </provider>

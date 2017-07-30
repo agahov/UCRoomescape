@@ -40,6 +40,9 @@ private:
     const  FHitResult GetFistPhysicsBodyInReach();
 
 
+    FVector GetLineReachLineEnd();
+
+
 		
 	
 };
