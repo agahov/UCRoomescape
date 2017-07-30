@@ -15,10 +15,51 @@ UGrabber::UGrabber()
 }
 
 
+
+void UGrabber::Grab()
+{
+
+    UE_LOG(LogTemp, Warning, TEXT("Grab Pressed"));
+}
+
+
+
 // Called when the game starts
 void UGrabber::BeginPlay()
 {
 	Super::BeginPlay();
+
+// Cast<UMyComponent>(MyActor->GetComponentByClass(UMyComponent::StaticClass()));
+
+    PhysicsHandle  = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
+
+
+
+    if (PhysicsHandle)
+    {
+
+    } else
+    {
+        UE_LOG(LogTemp, Error, TEXT("cant find PhysicsHandleComponent"));
+    }
+
+
+
+    InputComponent  = GetOwner()->FindComponentByClass<UInputComponent>();
+
+
+
+    if (InputComponent)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("cant find InputComponent"));
+        InputComponent->BindAction("Grab", IE_Pressed, this, &UGrabber::Grab);
+
+    } else
+    {
+        UE_LOG(LogTemp, Error, TEXT("cant find InputComponent"));
+    }
+
+
 
 	// ...
 	
@@ -53,7 +94,25 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
             10.f
     );
 
+    FHitResult Hit;
+    FCollisionQueryParams TraceParameters(FName(TEXT("")),false, GetOwner());
 
+
+
+    GetWorld()->LineTraceSingleByObjectType(
+            OUT Hit,
+            PlayerViewPointLocation,
+            LineTraceEnd,
+            FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
+            TraceParameters
+    );
+
+    AActor* ActorHit = Hit.GetActor();
+
+    if (ActorHit)
+    {
+        UE_LOG(LogTemp,Warning,TEXT("Line trace hit:%s"),*(ActorHit->GetName()));
+    }
 	// ...
 }
 

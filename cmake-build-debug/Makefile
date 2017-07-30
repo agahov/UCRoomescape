@@ -149,6 +149,33 @@ UCRoomescapeEditor-Development/fast:
 	$(MAKE) -f CMakeFiles/UCRoomescapeEditor-Development.dir/build.make CMakeFiles/UCRoomescapeEditor-Development.dir/build
 .PHONY : UCRoomescapeEditor-Development/fast
 
+Source/UCRoomescape/Grabber.o: Source/UCRoomescape/Grabber.cpp.o
+
+.PHONY : Source/UCRoomescape/Grabber.o
+
+# target to build an object file
+Source/UCRoomescape/Grabber.cpp.o:
+	$(MAKE) -f CMakeFiles/PleaseIgnoreMe.dir/build.make CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.o
+.PHONY : Source/UCRoomescape/Grabber.cpp.o
+
+Source/UCRoomescape/Grabber.i: Source/UCRoomescape/Grabber.cpp.i
+
+.PHONY : Source/UCRoomescape/Grabber.i
+
+# target to preprocess a source file
+Source/UCRoomescape/Grabber.cpp.i:
+	$(MAKE) -f CMakeFiles/PleaseIgnoreMe.dir/build.make CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.i
+.PHONY : Source/UCRoomescape/Grabber.cpp.i
+
+Source/UCRoomescape/Grabber.s: Source/UCRoomescape/Grabber.cpp.s
+
+.PHONY : Source/UCRoomescape/Grabber.s
+
+# target to generate assembly for a file
+Source/UCRoomescape/Grabber.cpp.s:
+	$(MAKE) -f CMakeFiles/PleaseIgnoreMe.dir/build.make CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.s
+.PHONY : Source/UCRoomescape/Grabber.cpp.s
+
 Source/UCRoomescape/OpenDoor.o: Source/UCRoomescape/OpenDoor.cpp.o
 
 .PHONY : Source/UCRoomescape/OpenDoor.o
@@ -268,6 +295,9 @@ help:
 	@echo "... UCRoomescapeEditor-Development-CLEAN"
 	@echo "... PleaseIgnoreMe"
 	@echo "... UCRoomescapeEditor-Development"
+	@echo "... Source/UCRoomescape/Grabber.o"
+	@echo "... Source/UCRoomescape/Grabber.i"
+	@echo "... Source/UCRoomescape/Grabber.s"
 	@echo "... Source/UCRoomescape/OpenDoor.o"
 	@echo "... Source/UCRoomescape/OpenDoor.i"
 	@echo "... Source/UCRoomescape/OpenDoor.s"

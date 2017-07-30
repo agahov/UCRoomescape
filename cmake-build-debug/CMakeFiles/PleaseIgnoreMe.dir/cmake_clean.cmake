@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.o"
   "CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/OpenDoor.cpp.o"
   "CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/PositionReporter.cpp.o"
   "CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/UCRoomescape.cpp.o"

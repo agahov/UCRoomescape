@@ -5027,6 +5027,12 @@
 		<Unit filename="/Users/gakhov/Space/unrealProjects/UCRoomescape/Source/UCRoomescape.Target.cs">
 			<Option target="PleaseIgnoreMe"/>
 		</Unit>
+		<Unit filename="/Users/gakhov/Space/unrealProjects/UCRoomescape/Source/UCRoomescape/Grabber.cpp">
+			<Option target="PleaseIgnoreMe"/>
+		</Unit>
+		<Unit filename="/Users/gakhov/Space/unrealProjects/UCRoomescape/Source/UCRoomescape/Grabber.h">
+			<Option target="PleaseIgnoreMe"/>
+		</Unit>
 		<Unit filename="/Users/gakhov/Space/unrealProjects/UCRoomescape/Source/UCRoomescape/OpenDoor.cpp">
 			<Option target="PleaseIgnoreMe"/>
 		</Unit>

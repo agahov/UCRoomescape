@@ -57,9 +57,33 @@ include CMakeFiles/PleaseIgnoreMe.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/PleaseIgnoreMe.dir/flags.make
 
+CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.o: CMakeFiles/PleaseIgnoreMe.dir/flags.make
+CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.o: ../Source/UCRoomescape/Grabber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gakhov/Space/unrealProjects/UCRoomescape/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.o -c /Users/gakhov/Space/unrealProjects/UCRoomescape/Source/UCRoomescape/Grabber.cpp
+
+CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gakhov/Space/unrealProjects/UCRoomescape/Source/UCRoomescape/Grabber.cpp > CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.i
+
+CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gakhov/Space/unrealProjects/UCRoomescape/Source/UCRoomescape/Grabber.cpp -o CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.s
+
+CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.o.requires:
+
+.PHONY : CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.o.requires
+
+CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.o.provides: CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.o.requires
+	$(MAKE) -f CMakeFiles/PleaseIgnoreMe.dir/build.make CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.o.provides.build
+.PHONY : CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.o.provides
+
+CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.o.provides.build: CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.o
+
+
 CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/OpenDoor.cpp.o: CMakeFiles/PleaseIgnoreMe.dir/flags.make
 CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/OpenDoor.cpp.o: ../Source/UCRoomescape/OpenDoor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gakhov/Space/unrealProjects/UCRoomescape/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/OpenDoor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gakhov/Space/unrealProjects/UCRoomescape/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/OpenDoor.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/OpenDoor.cpp.o -c /Users/gakhov/Space/unrealProjects/UCRoomescape/Source/UCRoomescape/OpenDoor.cpp
 
 CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/OpenDoor.cpp.i: cmake_force
@@ -83,7 +107,7 @@ CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/OpenDoor.cpp.o.provides.build:
 
 CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/PositionReporter.cpp.o: CMakeFiles/PleaseIgnoreMe.dir/flags.make
 CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/PositionReporter.cpp.o: ../Source/UCRoomescape/PositionReporter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gakhov/Space/unrealProjects/UCRoomescape/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/PositionReporter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gakhov/Space/unrealProjects/UCRoomescape/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/PositionReporter.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/PositionReporter.cpp.o -c /Users/gakhov/Space/unrealProjects/UCRoomescape/Source/UCRoomescape/PositionReporter.cpp
 
 CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/PositionReporter.cpp.i: cmake_force
@@ -107,7 +131,7 @@ CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/PositionReporter.cpp.o.provide
 
 CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/UCRoomescape.cpp.o: CMakeFiles/PleaseIgnoreMe.dir/flags.make
 CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/UCRoomescape.cpp.o: ../Source/UCRoomescape/UCRoomescape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gakhov/Space/unrealProjects/UCRoomescape/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/UCRoomescape.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gakhov/Space/unrealProjects/UCRoomescape/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/UCRoomescape.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/UCRoomescape.cpp.o -c /Users/gakhov/Space/unrealProjects/UCRoomescape/Source/UCRoomescape/UCRoomescape.cpp
 
 CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/UCRoomescape.cpp.i: cmake_force
@@ -131,7 +155,7 @@ CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/UCRoomescape.cpp.o.provides.bu
 
 CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/UCRoomescapeGameModeBase.cpp.o: CMakeFiles/PleaseIgnoreMe.dir/flags.make
 CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/UCRoomescapeGameModeBase.cpp.o: ../Source/UCRoomescape/UCRoomescapeGameModeBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gakhov/Space/unrealProjects/UCRoomescape/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/UCRoomescapeGameModeBase.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gakhov/Space/unrealProjects/UCRoomescape/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/UCRoomescapeGameModeBase.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/UCRoomescapeGameModeBase.cpp.o -c /Users/gakhov/Space/unrealProjects/UCRoomescape/Source/UCRoomescape/UCRoomescapeGameModeBase.cpp
 
 CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/UCRoomescapeGameModeBase.cpp.i: cmake_force
@@ -155,6 +179,7 @@ CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/UCRoomescapeGameModeBase.cpp.o
 
 # Object files for target PleaseIgnoreMe
 PleaseIgnoreMe_OBJECTS = \
+"CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.o" \
 "CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/OpenDoor.cpp.o" \
 "CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/PositionReporter.cpp.o" \
 "CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/UCRoomescape.cpp.o" \
@@ -163,13 +188,14 @@ PleaseIgnoreMe_OBJECTS = \
 # External object files for target PleaseIgnoreMe
 PleaseIgnoreMe_EXTERNAL_OBJECTS =
 
+PleaseIgnoreMe: CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.o
 PleaseIgnoreMe: CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/OpenDoor.cpp.o
 PleaseIgnoreMe: CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/PositionReporter.cpp.o
 PleaseIgnoreMe: CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/UCRoomescape.cpp.o
 PleaseIgnoreMe: CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/UCRoomescapeGameModeBase.cpp.o
 PleaseIgnoreMe: CMakeFiles/PleaseIgnoreMe.dir/build.make
 PleaseIgnoreMe: CMakeFiles/PleaseIgnoreMe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gakhov/Space/unrealProjects/UCRoomescape/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable PleaseIgnoreMe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gakhov/Space/unrealProjects/UCRoomescape/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable PleaseIgnoreMe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PleaseIgnoreMe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -177,6 +203,7 @@ CMakeFiles/PleaseIgnoreMe.dir/build: PleaseIgnoreMe
 
 .PHONY : CMakeFiles/PleaseIgnoreMe.dir/build
 
+CMakeFiles/PleaseIgnoreMe.dir/requires: CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.o.requires
 CMakeFiles/PleaseIgnoreMe.dir/requires: CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/OpenDoor.cpp.o.requires
 CMakeFiles/PleaseIgnoreMe.dir/requires: CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/PositionReporter.cpp.o.requires
 CMakeFiles/PleaseIgnoreMe.dir/requires: CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/UCRoomescape.cpp.o.requires
