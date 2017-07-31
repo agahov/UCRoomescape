@@ -21,7 +21,7 @@ void UOpenDoor::BeginPlay()
 	Super::BeginPlay();
 
 
-    if (PressurePlate == nullptr)
+    if (!PressurePlate)
     {
         UE_LOG(LogTemp, Error, TEXT("%s variable PressurePlate is undefinded"), *GetOwner()->GetName());
         return;
@@ -83,7 +83,9 @@ float UOpenDoor::GetTotalMassOfActorsOnPlate()
     FString TotalMassStr;
 
     TArray<AActor*> OverlappingActors;
-    if (PressurePlate == nullptr) return 0;
+
+
+    if (!PressurePlate) return TotalMass;
 
 
         PressurePlate->GetOverlappingActors(OUT OverlappingActors);

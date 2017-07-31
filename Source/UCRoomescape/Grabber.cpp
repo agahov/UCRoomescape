@@ -28,14 +28,9 @@ void UGrabber::BeginPlay()
 	Super::BeginPlay();
 
 
-
-
     PhysicsHandle  = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
 
-    if (PhysicsHandle)
-    {
-
-    } else
+    if (!PhysicsHandle)
     {
         UE_LOG(LogTemp, Error, TEXT("%s missing PhysicsHandleComponent"), *GetOwner()->GetName());
     }
@@ -74,7 +69,7 @@ void UGrabber::Grab()
     auto ComponentToGrab =  GetFistPhysicsBodyInReach().GetComponent();
 
 
-    if (PhysicsHandle== nullptr)
+    if (!PhysicsHandle)
     {
 
         return;
@@ -91,7 +86,7 @@ void UGrabber::Ungrab()
 {
 
     //UE_LOG(LogTemp, Warning, TEXT("Grab Release"));
-    if (PhysicsHandle== nullptr)
+    if (!PhysicsHandle)
     {
         //UE_LOG(LogTemp, Error, TEXT("cant find PhysicsHandleComponent"));
         return;
@@ -112,7 +107,7 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 
     //FVector LineEnd = GetLineReachLineEnd();
 
-    if (PhysicsHandle== nullptr)
+    if (!PhysicsHandle)
     {
         //UE_LOG(LogTemp, Error, TEXT("cant find PhysicsHandleComponent"));
         return;
