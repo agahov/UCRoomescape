@@ -28,7 +28,7 @@ void UPositionReporter::BeginPlay()
 
     //GetOwner()->
 //GetOwner()
-    UE_LOG(LogTemp,Error,TEXT("Position:: %s  is  %s "),*ObjectName, *ObjPosition);
+    UE_LOG(LogTemp,Error,TEXT("Super Position:: %s  is  %s "),*ObjectName, *ObjPosition);
 
 	// ...
 	

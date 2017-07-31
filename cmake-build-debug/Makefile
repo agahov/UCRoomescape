@@ -176,6 +176,33 @@ Source/UCRoomescape/Grabber.cpp.s:
 	$(MAKE) -f CMakeFiles/PleaseIgnoreMe.dir/build.make CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/Grabber.cpp.s
 .PHONY : Source/UCRoomescape/Grabber.cpp.s
 
+Source/UCRoomescape/MyDefaultPawn.o: Source/UCRoomescape/MyDefaultPawn.cpp.o
+
+.PHONY : Source/UCRoomescape/MyDefaultPawn.o
+
+# target to build an object file
+Source/UCRoomescape/MyDefaultPawn.cpp.o:
+	$(MAKE) -f CMakeFiles/PleaseIgnoreMe.dir/build.make CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/MyDefaultPawn.cpp.o
+.PHONY : Source/UCRoomescape/MyDefaultPawn.cpp.o
+
+Source/UCRoomescape/MyDefaultPawn.i: Source/UCRoomescape/MyDefaultPawn.cpp.i
+
+.PHONY : Source/UCRoomescape/MyDefaultPawn.i
+
+# target to preprocess a source file
+Source/UCRoomescape/MyDefaultPawn.cpp.i:
+	$(MAKE) -f CMakeFiles/PleaseIgnoreMe.dir/build.make CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/MyDefaultPawn.cpp.i
+.PHONY : Source/UCRoomescape/MyDefaultPawn.cpp.i
+
+Source/UCRoomescape/MyDefaultPawn.s: Source/UCRoomescape/MyDefaultPawn.cpp.s
+
+.PHONY : Source/UCRoomescape/MyDefaultPawn.s
+
+# target to generate assembly for a file
+Source/UCRoomescape/MyDefaultPawn.cpp.s:
+	$(MAKE) -f CMakeFiles/PleaseIgnoreMe.dir/build.make CMakeFiles/PleaseIgnoreMe.dir/Source/UCRoomescape/MyDefaultPawn.cpp.s
+.PHONY : Source/UCRoomescape/MyDefaultPawn.cpp.s
+
 Source/UCRoomescape/OpenDoor.o: Source/UCRoomescape/OpenDoor.cpp.o
 
 .PHONY : Source/UCRoomescape/OpenDoor.o
@@ -298,6 +325,9 @@ help:
 	@echo "... Source/UCRoomescape/Grabber.o"
 	@echo "... Source/UCRoomescape/Grabber.i"
 	@echo "... Source/UCRoomescape/Grabber.s"
+	@echo "... Source/UCRoomescape/MyDefaultPawn.o"
+	@echo "... Source/UCRoomescape/MyDefaultPawn.i"
+	@echo "... Source/UCRoomescape/MyDefaultPawn.s"
 	@echo "... Source/UCRoomescape/OpenDoor.o"
 	@echo "... Source/UCRoomescape/OpenDoor.i"
 	@echo "... Source/UCRoomescape/OpenDoor.s"

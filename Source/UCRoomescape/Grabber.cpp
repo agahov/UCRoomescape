@@ -27,11 +27,8 @@ void UGrabber::BeginPlay()
 {
 	Super::BeginPlay();
 
-// Cast<UMyComponent>(MyActor->GetComponentByClass(UMyComponent::StaticClass()));
 
     PhysicsHandle  = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
-
-
 
     if (PhysicsHandle)
     {
@@ -43,24 +40,21 @@ void UGrabber::BeginPlay()
 
 
 
-    InputComponent  = GetOwner()->FindComponentByClass<UInputComponent>();
+//    InputComponent  = GetOwner()->FindComponentByClass<UInputComponent>();
+//    if (InputComponent)
+//    {
+//        UE_LOG(LogTemp, Warning, TEXT("cant find InputComponent"));
+//        InputComponent->BindAction("Grab", IE_Pressed, this, &UGrabber::Grab);
+//        InputComponent->BindAction("Grab", IE_Released, this, &UGrabber::Ungrab);
+//
+//    } else
+//    {
+//        UE_LOG(LogTemp, Error, TEXT("cant find InputComponent"));
+//    }
 
 
 
-    if (InputComponent)
-    {
-        UE_LOG(LogTemp, Warning, TEXT("cant find InputComponent"));
-        InputComponent->BindAction("Grab", IE_Pressed, this, &UGrabber::Grab);
-        InputComponent->BindAction("Grab", IE_Released, this, &UGrabber::Ungrab);
 
-    } else
-    {
-        UE_LOG(LogTemp, Error, TEXT("cant find InputComponent"));
-    }
-
-
-
-	// ...
 	
 }
 
@@ -102,6 +96,12 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 
 
     //FVector LineEnd = GetLineReachLineEnd();
+
+    if (PhysicsHandle== nullptr)
+    {
+        UE_LOG(LogTemp, Error, TEXT("cant find PhysicsHandleComponent"));
+        return;
+    }
 
     if (PhysicsHandle->GrabbedComponent)
     {

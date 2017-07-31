@@ -23,7 +23,7 @@ void UOpenDoor::BeginPlay()
 	// ...
 	//AActor * owner = CFFileSecurityGetOwner()
 
-    ActorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
+    //ActorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
 
 }
 
@@ -51,7 +51,10 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 
-    if (PressurePlate->IsOverlappingActor(ActorThatOpens))
+//    if (PressurePlate->IsOverlappingActor(ActorThatOpens))
+//    {
+
+    if (GetTotalMassOfActorsOnPlate()==70.f)
     {
         OpenDoor();
 
@@ -65,4 +68,29 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
         CloseDoor();
     }
 }
+
+
+float UOpenDoor::GetTotalMassOfActorsOnPlate()
+{
+    float TotalMass = 0.f;
+    FString TotalMassStr;
+
+    TArray<AActor*> OverlappingActors;
+    PressurePlate->GetOverlappingActors(OUT OverlappingActors);
+
+
+    //AActor JoinedStr;
+    for (const auto& Actor : OverlappingActors)
+    {
+        TotalMass += Actor->FindComponentByClass<UPrimitiveComponent>()->GetMass();
+        TotalMassStr = FString::SanitizeFloat(TotalMass);
+
+        UE_LOG(LogTemp,Warning,TEXT("name: %s   mass:: %s"), *Actor->GetName(), *TotalMassStr);
+
+    }
+
+    return TotalMass;
+
+}
+
 

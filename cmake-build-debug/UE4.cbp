@@ -5033,6 +5033,12 @@
 		<Unit filename="/Users/gakhov/Space/unrealProjects/UCRoomescape/Source/UCRoomescape/Grabber.h">
 			<Option target="PleaseIgnoreMe"/>
 		</Unit>
+		<Unit filename="/Users/gakhov/Space/unrealProjects/UCRoomescape/Source/UCRoomescape/MyDefaultPawn.cpp">
+			<Option target="PleaseIgnoreMe"/>
+		</Unit>
+		<Unit filename="/Users/gakhov/Space/unrealProjects/UCRoomescape/Source/UCRoomescape/MyDefaultPawn.h">
+			<Option target="PleaseIgnoreMe"/>
+		</Unit>
 		<Unit filename="/Users/gakhov/Space/unrealProjects/UCRoomescape/Source/UCRoomescape/OpenDoor.cpp">
 			<Option target="PleaseIgnoreMe"/>
 		</Unit>
