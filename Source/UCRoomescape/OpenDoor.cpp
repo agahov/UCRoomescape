@@ -54,7 +54,7 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 //    if (PressurePlate->IsOverlappingActor(ActorThatOpens))
 //    {
 
-    if (GetTotalMassOfActorsOnPlate()==70.f)
+    if (GetTotalMassOfActorsOnPlate()>=70.f && GetTotalMassOfActorsOnPlate()<80.f)
     {
         OpenDoor();
 
