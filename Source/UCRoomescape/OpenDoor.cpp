@@ -20,6 +20,15 @@ void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
 
+
+    if (PressurePlate == nullptr)
+    {
+        UE_LOG(LogTemp, Error, TEXT("%s variable PressurePlate is undefinded"), *GetOwner()->GetName());
+        return;
+
+
+    }
+
 	// ...
 	//AActor * owner = CFFileSecurityGetOwner()
 
@@ -51,8 +60,6 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 
-//    if (PressurePlate->IsOverlappingActor(ActorThatOpens))
-//    {
 
     if (GetTotalMassOfActorsOnPlate()>=70.f && GetTotalMassOfActorsOnPlate()<80.f)
     {
@@ -76,7 +83,10 @@ float UOpenDoor::GetTotalMassOfActorsOnPlate()
     FString TotalMassStr;
 
     TArray<AActor*> OverlappingActors;
-    PressurePlate->GetOverlappingActors(OUT OverlappingActors);
+    if (PressurePlate == nullptr) return 0;
+
+
+        PressurePlate->GetOverlappingActors(OUT OverlappingActors);
 
 
     //AActor JoinedStr;

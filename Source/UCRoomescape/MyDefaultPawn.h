@@ -33,7 +33,7 @@ virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) ov
 
 private:
 
-UGrabber* Grabber;
+UGrabber* Grabber = nullptr;
 void InitGrabber();
 
 void  Grab();

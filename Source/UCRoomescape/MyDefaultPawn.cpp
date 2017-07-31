@@ -40,7 +40,7 @@ void AMyDefaultPawn::InitGrabber()
 
     if (Grabber== nullptr)
     {
-        UE_LOG(LogTemp, Error, TEXT("Can not init  Grabber "));
+        UE_LOG(LogTemp, Error, TEXT("%s miss Grabber "),*this->GetName());
     }
 
 }
