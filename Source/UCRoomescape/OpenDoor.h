@@ -38,8 +38,16 @@ public:
     void CloseDoor();
 
 private:
+
 	UPROPERTY(EditAnywhere)
-	float OpenAngel = 90.0f;
+	float TriggerMassIn = 70.0f;
+
+    UPROPERTY(EditAnywhere)
+    float TriggerMassOut = 80.0f;
+
+
+
+
     bool IsDoorOpened = false;
 
 
@@ -47,12 +55,6 @@ private:
     UPROPERTY(EditAnywhere)
     ATriggerVolume* PressurePlate = nullptr;
 
-    UPROPERTY(EditAnywhere)
-    float  DoorCloseDelay = 1.0f;
-
-    float  LastDoorOpenTime;
-
-	//AActor*  ActorThatOpens;
 
 
 

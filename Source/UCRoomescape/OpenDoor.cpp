@@ -6,16 +6,10 @@
 // Sets default values for this component's properties
 UOpenDoor::UOpenDoor()
 {
-	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
-	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-
-	// ...
 }
 
-
-// Called when the game starts
 void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
@@ -25,69 +19,46 @@ void UOpenDoor::BeginPlay()
     {
         UE_LOG(LogTemp, Error, TEXT("%s variable PressurePlate is undefinded"), *GetOwner()->GetName());
         return;
-
-
     }
-
-	// ...
-	//AActor * owner = CFFileSecurityGetOwner()
-
-    //ActorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
-
 }
-
 
 
 void UOpenDoor::OpenDoor() {
 
-    //AActor* Owner = GetOwner();
-    //FRotator NewRotation = FRotator(0.f,OpenAngel,0.f);
-    //Owner->SetActorRotation(NewRotation);
     if (!IsDoorOpened)
     {
         OnOpenRequest.Broadcast(0);
         IsDoorOpened = true;
     }
-
-
-
 }
+
 
 void UOpenDoor::CloseDoor()
 {
 
     if (IsDoorOpened)
     {
-//        AActor *Owner = GetOwner();
-//        FRotator NewRotation = FRotator(0.f, 0.f, 0.f);
-//        Owner->SetActorRotation(NewRotation);
-
         OnCloseRequest.Broadcast(0);
         IsDoorOpened = false;
     }
 
 }
 
-// Called every frame
+
 void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 
 
-    if (GetTotalMassOfActorsOnPlate()>=70.f && GetTotalMassOfActorsOnPlate()<80.f)
+    if (GetTotalMassOfActorsOnPlate()>=TriggerMassIn && GetTotalMassOfActorsOnPlate()<TriggerMassOut)
     {
         OpenDoor();
-
-        LastDoorOpenTime = GetWorld()->GetTimeSeconds();
-    }
-
-	// ...
-
-    if (GetWorld()->GetTimeSeconds() - LastDoorOpenTime>= DoorCloseDelay )
+    } else
     {
         CloseDoor();
     }
+
 }
 
 

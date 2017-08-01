@@ -14,7 +14,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d299b2c-3241-49c8-a811-1faf595c7265" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Content/Room/Openable_Door_BP.uasset" afterPath="$PROJECT_DIR$/Content/Room/Openable_Door_BP.uasset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Plugins/CLionSourceCodeAccess/Binaries/Mac/UE4Editor.modules" afterPath="$PROJECT_DIR$/Plugins/CLionSourceCodeAccess/Binaries/Mac/UE4Editor.modules" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.cpp" afterPath="$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.cpp" />
@@ -83,8 +82,8 @@
       <file leaf-file-name="OpenDoor.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="436">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -93,8 +92,8 @@
       <file leaf-file-name="OpenDoor.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-203">
-              <caret line="56" column="1" lean-forward="false" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+            <state relative-caret-position="205">
+              <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -130,8 +129,8 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="264" />
-    <option name="y" value="48" />
+    <option name="x" value="392" />
+    <option name="y" value="64" />
     <option name="width" value="1260" />
     <option name="height" value="769" />
   </component>
@@ -219,20 +218,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501450603812</updated>
-      <workItem from="1501450606837" duration="20480000" />
+      <workItem from="1501450606837" duration="21912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20480000" />
+    <option name="totallyTimeSpent" value="21912000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="264" y="48" width="1260" height="769" extended-state="0" />
+    <frame x="392" y="64" width="1260" height="769" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26190478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -324,16 +323,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="436">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/UCRoomescape/OpenDoor.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-203">
-          <caret line="56" column="1" lean-forward="false" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+        <state relative-caret-position="205">
+          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
           <folding />
         </state>
       </provider>
