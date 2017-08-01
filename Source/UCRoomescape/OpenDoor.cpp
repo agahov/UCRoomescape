@@ -40,17 +40,29 @@ void UOpenDoor::BeginPlay()
 
 void UOpenDoor::OpenDoor() {
 
-    AActor* Owner = GetOwner();
-    FRotator NewRotation = FRotator(0.f,OpenAngel,0.f);
-    Owner->SetActorRotation(NewRotation);
+    //AActor* Owner = GetOwner();
+    //FRotator NewRotation = FRotator(0.f,OpenAngel,0.f);
+    //Owner->SetActorRotation(NewRotation);
+    if (!IsDoorOpened)
+    {
+        OnOpenRequest.Broadcast(0);
+        IsDoorOpened = true;
+    }
+
+
 
 }
 
-void UOpenDoor::CloseDoor() {
+void UOpenDoor::CloseDoor()
+{
 
-    AActor* Owner = GetOwner();
-    FRotator NewRotation = FRotator(0.f,0.f,0.f);
-    Owner->SetActorRotation(NewRotation);
+    if (IsDoorOpened)
+    {
+        AActor *Owner = GetOwner();
+        FRotator NewRotation = FRotator(0.f, 0.f, 0.f);
+        Owner->SetActorRotation(NewRotation);
+        IsDoorOpened = false;
+    }
 
 }
 

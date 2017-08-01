@@ -7,6 +7,7 @@
 #include "Components/ActorComponent.h"
 #include "OpenDoor.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnOpenRequest, int32, LevelIndex);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class UCROOMESCAPE_API UOpenDoor : public UActorComponent
@@ -16,6 +17,9 @@ class UCROOMESCAPE_API UOpenDoor : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UOpenDoor();
+    //BlueprintCallable,Category = "Level Events"
+    UPROPERTY(BlueprintAssignable)
+    FOnOpenRequest OnOpenRequest;
 
 protected:
 	// Called when the game starts
@@ -31,6 +35,7 @@ public:
 private:
 	UPROPERTY(EditAnywhere)
 	float OpenAngel = 90.0f;
+    bool IsDoorOpened = false;
 
 
 
