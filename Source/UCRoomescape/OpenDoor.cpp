@@ -58,9 +58,11 @@ void UOpenDoor::CloseDoor()
 
     if (IsDoorOpened)
     {
-        AActor *Owner = GetOwner();
-        FRotator NewRotation = FRotator(0.f, 0.f, 0.f);
-        Owner->SetActorRotation(NewRotation);
+//        AActor *Owner = GetOwner();
+//        FRotator NewRotation = FRotator(0.f, 0.f, 0.f);
+//        Owner->SetActorRotation(NewRotation);
+
+        OnCloseRequest.Broadcast(0);
         IsDoorOpened = false;
     }
 
